@@ -669,10 +669,10 @@ input::placeholder {
     right: 0;
     z-index: 10;
     background: #EFEAE3;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.161);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.161);
     border-radius: 50%;
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     font-size: 26px;
     display: flex;
     align-items: center;
@@ -685,10 +685,10 @@ input::placeholder {
     left: 0;
     z-index: 10;
     background: #EFEAE3;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.161);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.161);
     border-radius: 50%;
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     font-size: 26px;
     display: flex;
     align-items: center;

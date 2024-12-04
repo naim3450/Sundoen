@@ -1,3 +1,19 @@
+// Initialize Lenis
+const lenis = new Lenis({
+    autoRaf: true,
+  });
+  
+  lenis.on('scroll', (e) => {
+    console.log(e);
+  });
+
+
+function raf(time) {
+  lenis.raf(time);
+  requestAnimationFrame(raf);
+}
+
+requestAnimationFrame(raf);
 
 let elemC = document.querySelector('.elem-container')
 let elems = document.querySelectorAll('.elem')
